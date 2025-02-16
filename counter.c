@@ -4,12 +4,12 @@
 int main(void)
 
 {
-    int counter = 4;
-    while (counter > 0)
+    int i = 0;
+    while (i < 4)
 
     {
         printf("meow\n");
-        counter--;
+        i++;
     }
 }
 
